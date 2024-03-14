@@ -1,0 +1,102 @@
+body {
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p, li {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p, li, h1, h2, h3 {
+    font-family: "Bree Serif", serif;
+}
+
+.container {
+    width: 880px;
+    /* border: 2px solid red; */
+    padding: 60px;
+    border-radius: 40px;
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: 40px 0px;
+}
+
+.head-container {
+    justify-content: space-between;
+    background-image: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-container {
+    padding: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.right-container {
+    text-align: end;
+    padding: 20px;
+}
+
+.image img {
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.headline {
+    font-size: 22px;
+}
+
+.intro {
+    text-align: left;
+    padding-top: 15px;
+}
+
+.education, .projects, .skills {
+    padding-top: 15px;
+}
+
+.education ul {
+    padding-left: 16px;
+}
+
+.education ul ol {
+    padding-left: 16px;
+}
+
+.projects ul {
+    padding-left: 16px;
+}
+
+.skills ul {
+    padding-left: 16px;
+}
+
+.links {
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.links img {
+    width: 48px;
+    background-color: white;
+    border-radius: 50%;
+}

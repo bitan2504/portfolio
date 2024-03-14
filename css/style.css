@@ -122,6 +122,10 @@ p, li, h1, h2, h3 {
     #headline-1 {
         display: none;
     }
+    
+    .right-container {
+        padding: 5px;
+    }
 } 
 
 @media only screen and (max-width: 670px) {
@@ -135,12 +139,10 @@ p, li, h1, h2, h3 {
 }
 
 @media only screen and (max-width: 500px) {
-    .right-container {
-        padding: 5px;
-    }
 
     .image img {
         padding: 0px;
+        padding-top: 10px;
     }
 
     .container {
